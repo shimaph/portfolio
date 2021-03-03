@@ -1,0 +1,112 @@
+.profile {
+  margin-top: 30px;
+  display: flex;
+  width: 480px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h1 {
+  font-size: 20px;
+  font-family: cursive;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.profilePic {
+  filter: saturate(0%);
+  border-radius: 50%;
+  border: thick double black;
+  vertical-align: middle;
+
+}
+
+body {
+  background-color: white;
+}
+
+
+
+.description {
+  margin-left: 20px;
+  align-items: center;
+  height: 130px;
+
+
+}
+
+.sign {
+  width: 200px;
+}
+
+.description p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.attencanceRecord {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.typingGame {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+img.gray {
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+filter: grayscale(100%);
+transition: 0.8s;
+}
+
+img.gray:hover {
+-webkit-filter: grayscale(0);
+-moz-filter: grayscale(0);
+-ms-filter: grayscale(0);
+-o-filter: grayscale(0);
+filter: grayscale(0);
+
+}
+
+.typeIMG {
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+}
+
+.works > div {
+  margin-bottom: 40px;
+}
+
+.attencanceRecord h1 {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: sans-serif;
+  cursor: auto;
+  color: black;
+}
+
+.typingGame h1 {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: sans-serif;
+  cursor: auto;
+  color: black;
+}
